@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="My first website prepare as an exercise of learning"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My first steps</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="My first website prepare as an exercise of learning" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first steps</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
 
-</head>
-<body>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link header__link--active" href="/">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/about.html">About</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="https://www.behance.net/kmalinowska" target="_blank" rel="creator"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/blog.html">Blog</a>
+              <ul>
+                <li>
+                  <a class="header__link" href="#photo">Design</a>
+                </li>
+                <li>
+                  <a class="header__link" href="#">Sport</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <header></header>
-  <nav>
-    <ul>
-      <li><a href="#"><b>Home</b></a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="https://www.behance.net/kmalinowska" target="_blank" rel="creator">Portfolio</a></li>
-      <li><a href="#">Blog</a></li>
-        <ul>
-          <li><a href="#photo">Design</a></li>
-          <li><a href="#">Sport</a></li>
-        </ul>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+      <section class="main">
+        <div class="main__div"></div>
+        <div class="main__div"></div>
+        <div class="main__div"></div>
+      </section>
 
-  <main>
-    <section>
-      <h1>Hello World 😍</h1>
-      <p>It's time to start my journey with coding. At the beginning HTML5 and CSS3.
-      </p>    
-    </section>
-  
-    <section id="photo">
-      <img src="https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="On this image are a beach with waves and an ALOHA phrase" width="900"/>
-    </section>   
+      <section class="section">
+        <h1 class="section__h1">Hello World 😍</h1>
+        <p class="section__paragraph">It's time to start my journey with coding. At the beginning HTML5 and CSS3.</p>
+      </section>
 
-  </main>
-  <footer></footer>
- 
+      <section class="image" id="photo">
+        <img
+          class="image__photo"
+          src="https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="On this image are a beach with waves and an ALOHA phrase"
+        />
+      </section>
+    </main>
 
-</body>
+    <footer>
+      <section class="footer">
+        <h2 class="footer__heading">Footer</h2>
+      </section>
+    </footer>
+  </body>
 </html>

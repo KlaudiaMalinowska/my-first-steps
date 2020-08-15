@@ -1,0 +1,37 @@
+@import './reset.css';
+
+body {
+  background: lightsalmon;
+}
+
+.header__nav {
+  background-color: turquoise;
+  width: 100%;
+}
+
+.header__item {
+  display: inline-block;
+}
+
+.header__link {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+h1 {
+  color: turquoise;
+  font-size: 24px;
+}
+
+.main-section__div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.footer {
+  background-color: yellow;
+  width: 100%;
+}
